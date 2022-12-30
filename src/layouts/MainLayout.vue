@@ -14,7 +14,7 @@
         />
 
         <q-toolbar-title class="text-green-10 text-bold">
-          AndraNote
+          AndraNote (UPDATED)
         </q-toolbar-title>
 
         <div class="text-green-10">v1.0</div>
