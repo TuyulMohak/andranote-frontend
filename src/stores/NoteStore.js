@@ -15,7 +15,7 @@ export const useNoteStore = defineStore('noteStore', {
   },
   actions: {
     async getNote () {
-      await axios.get('https://truthful-maize-gallium.glitch.me/note').then((res) => {
+      await axios.get('https://heliotrope-smart-hair.glitch.me/note').then((res) => {
         this.notebody = res.data.notebody
         // console.log(res.data.notebody)
       }).catch((err) => {
@@ -32,7 +32,7 @@ export const useNoteStore = defineStore('noteStore', {
         position: 'top'
       })
 
-      await axios.patch('https://truthful-maize-gallium.glitch.me/note', {
+      await axios.patch('https://heliotrope-smart-hair.glitch.me/note', {
         notebody: this.notebody,
         code: this.code
       }).then(res => {

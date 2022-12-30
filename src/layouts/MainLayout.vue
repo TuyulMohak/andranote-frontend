@@ -14,10 +14,10 @@
         />
 
         <q-toolbar-title class="text-green-10 text-bold">
-          AndraNote (does it real)
+          AndraNote
         </q-toolbar-title>
 
-        <div class="text-green-10">v1.0</div>
+        <div class="text-green-10">v1.1</div>
       </q-toolbar>
 
     </q-header>
